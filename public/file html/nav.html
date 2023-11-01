@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Profile</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+
+      .container {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      .profile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+
+      .profile img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+      }
+
+      .profile .details {
+        margin-left: 20px;
+      }
+
+      .profile .details h2 {
+        margin: 0;
+        font-size: 24px;
+      }
+
+      .profile .details p {
+        margin: 0;
+        font-size: 14px;
+        color: #777;
+      }
+
+      .contact {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+
+      .contact a {
+        display: inline-block;
+        background-color: #333;
+        color: #fff;
+        padding: 5px 10px;
+        text-decoration: none;
+        border-radius: 3px;
+      }
+
+      .contact a:hover {
+        background-color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="profile">
+        <img src="path/to/user/profile/picture" alt="User Profile Picture" />
+        <div class="details">
+          <h2>User Full Name</h2>
+          <p>user.email@example.com</p>
+        </div>
+      </div>
+      <div class="contact">
+        <a href="mailto:user.email@example.com">Send Email</a>
+        <a href="tel:+1234567890">Call User</a>
+      </div>
+    </div>
+  </body>
+</html>
